@@ -26,6 +26,9 @@
                                 <rect key="frame" x="147" y="222" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="09"/>
+                                <connections>
+                                    <segue destination="gQi-wF-6Ok" kind="show" id="AvP-xq-8eN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zop-8g-UUU">
                                 <rect key="frame" x="145" y="506" width="30" height="30"/>
@@ -100,6 +103,31 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="65.217391304347828"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lx7-lk-l8Y">
+            <objects>
+                <viewController id="gQi-wF-6Ok" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="R8N-ii-Ueg"/>
+                        <viewControllerLayoutGuide type="bottom" id="3ru-bE-wwl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="znT-8x-XhK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AL3-wo-Aix">
+                                <rect key="frame" x="117" y="230" width="151" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="close"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OyC-Yq-kFS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="725.60000000000002" y="64.31784107946028"/>
         </scene>
     </scenes>
 </document>

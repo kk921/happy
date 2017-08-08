@@ -16,6 +16,7 @@
 		004265B61F39D9FD00A515DF /* SAMPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004265B51F39D9FD00A515DF /* SAMPPTests.m */; };
 		004265C11F39D9FD00A515DF /* SAMPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004265C01F39D9FD00A515DF /* SAMPPUITests.m */; };
 		004265D41F39DD8600A515DF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 004265D61F39DD8600A515DF /* Localizable.strings */; };
+		004265E31F3A167100A515DF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 004265E21F3A167100A515DF /* SecondViewController.m */; };
 		35397E644F762CB22207DBF4 /* libPods-SAMPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFC268AA0072D7288390365 /* libPods-SAMPP.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,8 @@
 		004265DC1F39E57700A515DF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		004265DD1F39E57700A515DF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		004265DF1F39E66C00A515DF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		004265E11F3A167100A515DF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		004265E21F3A167100A515DF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		3707FDF111AF8B1244846002 /* Pods-SAMPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAMPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAMPP/Pods-SAMPP.release.xcconfig"; sourceTree = "<group>"; };
 		5C2C8DEE1413521E59172238 /* Pods-SAMPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAMPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAMPP/Pods-SAMPP.debug.xcconfig"; sourceTree = "<group>"; };
 		BCFC268AA0072D7288390365 /* libPods-SAMPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAMPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +116,7 @@
 		0042659A1F39D9FC00A515DF /* SAMPP */ = {
 			isa = PBXGroup;
 			children = (
+				004265E01F3A164E00A515DF /* Views */,
 				0042659E1F39D9FC00A515DF /* AppDelegate.h */,
 				0042659F1F39D9FC00A515DF /* AppDelegate.m */,
 				004265A11F39D9FC00A515DF /* ViewController.h */,
@@ -151,6 +155,15 @@
 				004265C21F39D9FD00A515DF /* Info.plist */,
 			);
 			path = SAMPPUITests;
+			sourceTree = "<group>";
+		};
+		004265E01F3A164E00A515DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				004265E11F3A167100A515DF /* SecondViewController.h */,
+				004265E21F3A167100A515DF /* SecondViewController.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		148140F763E59C20CA4018D7 /* Frameworks */ = {
@@ -359,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004265E31F3A167100A515DF /* SecondViewController.m in Sources */,
 				004265A31F39D9FC00A515DF /* ViewController.m in Sources */,
 				004265A01F39D9FC00A515DF /* AppDelegate.m in Sources */,
 				0042659D1F39D9FC00A515DF /* main.m in Sources */,
